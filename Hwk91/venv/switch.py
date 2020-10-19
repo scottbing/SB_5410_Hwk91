@@ -1,27 +1,14 @@
+SQUARE = 2
+
 class SwitchCase:
 
+    # class constructor
     def __init__(self):
         self.a = 0
         self.b = 0
+    #end constructor
 
-    # begin math switcher functions
-    def add(self, a, b):
-        return self.a + self.b
-
-    def sub(a, b):
-        return self.a - self.b
-
-    def mul(a, b):
-        return self.a * self.b
-
-    def div(a, b):
-        return self.a / self.b
-
-    def sqr(a, b=2):
-        return pow(a, b)
-
-    # end math switcher functions
-
+    # evaluate operator
     def switch(self, oper):
         default = "Invalid option"
         return getattr(self, 'case_' + str(ord(oper)), lambda: default)()
@@ -34,28 +21,30 @@ class SwitchCase:
     def case_47(self,):
         return self.a / self.b
     def case_94(self,):
-        return pow(self.a, 2)
+        return pow(self.a, SQUARE)
+    #end evaluate operator group
 
 
-    # menu
+    # menu switch
     def menu(self, menu_option):
         default = "Invalid option"
         return getattr(self, 'item_' + str(menu_option), lambda: default)()
     def item_1(self):
-        return "1.) +"
+        return "+  --> to add"
     def item_2(self,):
-        return "2.) -"
+        return "-  --> to subtract"
     def item_3(self,):
-        return "3.) *"
+        return "*  --> to multiply"
     def item_4(self,):
-        return "4.) /"
+        return "/  --> to divide"
     def item_5(self,):
-        return "5.) ^"
+        return "^  --> to square"
+    #end menu switch group
 
-
+    # construct menu
     def menu(self, sw):
         # menus
-        print("Calculator type your operation: ")
+        print("Calculator type your operation character: ")
         print(sw.item_1())
         print(sw.item_2())
         print(sw.item_3())
@@ -63,21 +52,25 @@ class SwitchCase:
         print(sw.item_5())
     # end def menu():
 
+    # enter data
     def operation(self, ch, switcher):
-        self.a = int(input("Enter A:"))
-        self.b = int(input("Enter B:"))
+        if ch == '^':
+            self.a = int(input("Enter A:"))
+        else:
+            self.a = int(input("Enter A:"))
+            self.b = int(input("Enter B:"))
 
         #return switcher.get(ch, "Invalid option chosen")
         return switcher.switch(ch)
-# end def operation(ch):
+    # end def operation(ch):
 
 def main():
     sw = SwitchCase()
     sw.menu(sw)
     ch = input("Enter Choice(1-4): ")
     ans = sw.operation(ch, sw)
-    print(ans)
-
+    print("Ans:", ans)
+#end def main():
 
 
 if __name__ == '__main__':

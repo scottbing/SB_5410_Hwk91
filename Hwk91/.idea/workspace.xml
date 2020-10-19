@@ -22,10 +22,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/venv" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/venv" />
       <recent name="$PROJECT_DIR$/venv/lib" />
     </key>
   </component>
@@ -71,28 +75,32 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1432" height="245" key="GridCell.Tab.0.bottom" timestamp="1603142573413">
+    <state x="781" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603142897493">
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
-    <state width="1432" height="245" key="GridCell.Tab.0.bottom/0.23.1920.1001@0.23.1920.1001" timestamp="1603142573413" />
+    <state x="781" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.1001@0.23.1920.1001" timestamp="1603142897493" />
+    <state width="1432" height="245" key="GridCell.Tab.0.bottom" timestamp="1603144025969">
+      <screen x="0" y="23" width="1920" height="1001" />
+    </state>
+    <state width="1432" height="245" key="GridCell.Tab.0.bottom/0.23.1920.1001@0.23.1920.1001" timestamp="1603144025969" />
     <state width="1432" height="245" key="GridCell.Tab.0.bottom/0.23.1920.1002@0.23.1920.1002" timestamp="1603137537237" />
     <state width="1554" height="245" key="GridCell.Tab.0.bottom/0.23.1920.997@0.23.1920.997" timestamp="1603135812230" />
-    <state width="1432" height="245" key="GridCell.Tab.0.center" timestamp="1603142573412">
+    <state width="1432" height="245" key="GridCell.Tab.0.center" timestamp="1603144025969">
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
-    <state width="1432" height="245" key="GridCell.Tab.0.center/0.23.1920.1001@0.23.1920.1001" timestamp="1603142573412" />
+    <state width="1432" height="245" key="GridCell.Tab.0.center/0.23.1920.1001@0.23.1920.1001" timestamp="1603144025969" />
     <state width="1432" height="245" key="GridCell.Tab.0.center/0.23.1920.1002@0.23.1920.1002" timestamp="1603137537237" />
     <state width="1554" height="245" key="GridCell.Tab.0.center/0.23.1920.997@0.23.1920.997" timestamp="1603135812230" />
-    <state width="1432" height="245" key="GridCell.Tab.0.left" timestamp="1603142573412">
+    <state width="1432" height="245" key="GridCell.Tab.0.left" timestamp="1603144025968">
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
-    <state width="1432" height="245" key="GridCell.Tab.0.left/0.23.1920.1001@0.23.1920.1001" timestamp="1603142573412" />
+    <state width="1432" height="245" key="GridCell.Tab.0.left/0.23.1920.1001@0.23.1920.1001" timestamp="1603144025968" />
     <state width="1432" height="245" key="GridCell.Tab.0.left/0.23.1920.1002@0.23.1920.1002" timestamp="1603137537236" />
     <state width="1554" height="245" key="GridCell.Tab.0.left/0.23.1920.997@0.23.1920.997" timestamp="1603135812229" />
-    <state width="1432" height="245" key="GridCell.Tab.0.right" timestamp="1603142573413">
+    <state width="1432" height="245" key="GridCell.Tab.0.right" timestamp="1603144025969">
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
-    <state width="1432" height="245" key="GridCell.Tab.0.right/0.23.1920.1001@0.23.1920.1001" timestamp="1603142573413" />
+    <state width="1432" height="245" key="GridCell.Tab.0.right/0.23.1920.1001@0.23.1920.1001" timestamp="1603144025969" />
     <state width="1432" height="245" key="GridCell.Tab.0.right/0.23.1920.1002@0.23.1920.1002" timestamp="1603137537237" />
     <state width="1554" height="245" key="GridCell.Tab.0.right/0.23.1920.997@0.23.1920.997" timestamp="1603135812230" />
   </component>
