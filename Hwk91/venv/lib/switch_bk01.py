@@ -22,25 +22,24 @@ class SwitchCase:
 
     # end math switcher functions
 
-    def switch(self, oper):
+    def switch(self, dayOfWeek):
         default = "Invalid option"
-        return getattr(self, 'case_' + str(ord(oper)), lambda: default)()
-    def case_43(self,):
+        return getattr(self, 'case_' + str(dayOfWeek), lambda: default)()
+    def case_1(self):
         return self.a + self.b
-    def case_45(self,):
-        return self.a - self.b
-    def case_42(self,):
-        return self.a * self.b
-    def case_47(self,):
-        return self.a / self.b
-    def case_94(self,):
-        return pow(self.a, 2)
-
+    def case_2(self,):
+        return "2.) -"
+    def case_3(self,):
+        return "3.) *"
+    def case_4(self,):
+        return "4.) /"
+    def case_5(self,):
+        return "5.) ^"
 
     # menu
-    def menu(self, menu_option):
+    def menu(self, dayOfWeek):
         default = "Invalid option"
-        return getattr(self, 'item_' + str(menu_option), lambda: default)()
+        return getattr(self, 'item_' + str(dayOfWeek), lambda: default)()
     def item_1(self):
         return "1.) +"
     def item_2(self,):
@@ -77,7 +76,6 @@ def main():
     ch = input("Enter Choice(1-4): ")
     ans = sw.operation(ch, sw)
     print(ans)
-
 
 
 if __name__ == '__main__':
